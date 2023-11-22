@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  nav {
+    background-color: #1A1A1A;
+    height: 7vh;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #search-bar {
+      background-color: #303030;
+      padding: 6px 35px;
+      border-radius: 10px;
+      width: 30%;
+      padding-left: 20px;
+      display: flex;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      outline: 1px solid #727171;
+  }
+
+  #search-bar input {
+      border: none;
+      width: 10%;
+      outline: none;
+      background-color: inherit;
+      border: none;
+      width: 90%;
+      color: #fff;
+      outline: none;
+  }
+
+  #search-bar button {
+    border: 0;
+    margin-left: -12px;
+    margin-right: 7px;
+    background-color: inherit;
+    outline: none;
+  }
+
+  .svg-icon {
+    background-color: #303030;
+    padding: 2px;
+    outline: 1px solid #727171;
+  }
+
+  .container {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding-top: 20px;
+    height: 80vh;
+  }
+
+  .plan {
+    margin: 0 20%;
+    background-color: #1A1A1A;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+    align-items: center;
+    box-shadow: #1A1A1A;
+  }
+
+  .select-plan {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .select-plan button {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .plan-options {
+    margin: 25px 20%;
+    background-color: #fff;
+    box-shadow: #ffffffe0;
+    border-radius: 10px;
+    padding: 2px 15px;
+  }
+
+  .progress {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progress svg {
+    background-color: #1A1A1A;
+    fill: red;
+    margin-top: 20px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  .progress-text{
+    margin-top: -16px;
+    font-size: 13px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
+
+    #search-bar {
+      margin: 10px 0;
+      width: 100%;
+    }
+  } */
