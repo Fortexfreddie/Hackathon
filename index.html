@@ -35,85 +35,149 @@
     </nav>
     <!-- header end  -->
 
-  <main>
-    <div class="container">
-        <div class="plan">
-            <div class="select-plan">
-                <h5>Extend your trial $1/month for 3 months on select plans.</h5>
-                <ul>
-                    <li>
-                        <button>Select a plan</button>
-                    </li>
-                    <li>
-                        <span>x</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="plan-options">
-            <div class="progress">
-                <h3>Setup guide</h3>
-                <span>
-                    <svg width="20" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0303 12.2803C14.7374 12.5732 14.2626 12.5732 13.9697 12.2803L10.5 8.81066L7.03033 12.2803C6.73744 12.5732 6.26256 12.5732 5.96967 12.2803C5.67678 11.9874 5.67678 11.5126 5.96967 11.2197L9.96967 7.21967C10.2626 6.92678 10.7374 6.92678 11.0303 7.21967L15.0303 11.2197C15.3232 11.5126 15.3232 11.9874 15.0303 12.2803Z" fill="#fff"/>
-                    </svg>
-                </span>
-            </div>
-            <div class="progress-text">
-                <p>Use this personalized guide to get your store up amd running</p>
-            </div>
-            <div style="display: flex;">
-                <p style="margin-right: 10px; font-size: 13px;">1 / 5 Completed</p>
-                <progress style="width: 80px;" min="50" max="100" value="20"></progress>
-                <progress style="width: 80px; display: none;" min="50" max="100" value="20"></progress>
-                <progress style="width: 80px; display: none;" min="50" max="100" value="20"></progress>
-                <progress style="width: 80px; display: none;" min="50" max="100" value="20"></progress>
-                <progress style="width: 80px; display: none;" min="50" max="100" value="20"></progress>
-            </div>
-            <div class="select-list">
-                <div style="display: flex; margin-top: 15px;">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
-                            <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
-                          </svg> 
-                    </span>
-                    <p style="margin-left: 10px; margin-top: -0.5px;">Customize your online store</p>
+    <main>
+        <div class="container">
+            <div class="plan">
+                <div class="select-plan">
+                    <h5>Extend your trial $1/month for 3 months on select plans.</h5>
+                    <ul>
+                        <li>
+                            <button>Select a plan</button>
+                        </li>
+                        <li>
+                            <span>x</span>
+                        </li>
+                    </ul>
                 </div>
-
-                <div>
+            </div>
+            <div class="plan-options">
+                <div class="progress">
+                    <h3>Setup guide</h3>
                     <span>
+                        <svg width="20" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0303 12.2803C14.7374 12.5732 14.2626 12.5732 13.9697 12.2803L10.5 8.81066L7.03033 12.2803C6.73744 12.5732 6.26256 12.5732 5.96967 12.2803C5.67678 11.9874 5.67678 11.5126 5.96967 11.2197L9.96967 7.21967C10.2626 6.92678 10.7374 6.92678 11.0303 7.21967L15.0303 11.2197C15.3232 11.5126 15.3232 11.9874 15.0303 12.2803Z" fill="#fff"/>
+                        </svg>
                     </span>
-                    <p>Add your first product</p>
-                      <div>
-                         <p>Write a description, add photos, set pricing for the products you plan to sell. <a href="">Learn more</a></p>
-                      </div>
-                    <div class="">
-                        <button>Add product</button>
-                        <button>Import product</button>
+                </div>
+                <div class="progress-text">
+                    <p>Use this personalized guide to get your store up and running</p>
+                </div>
+                <div style="display: flex; margin-bottom: 30px;">
+                    <p style="margin-right: 10px; font-size: 13px;">1 / 5 Completed</p>
+                    <!-- Progress bars... -->
+                    <progress min="20" max="100" value="20" style="width: 80px;"></progress>
+                </div>
+                <div class="select-list">
+                    <div class="dropdown-section" style="margin-bottom: 10px;">
+                        <div>
+                            <span style="display: inline;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
+                                  </svg> 
+                            </span>
+                            <p style="display: inline;">Customize your online store</p>
+                        </div>
+                        <!-- Dropdown content -->
+                        <div class="dropdown-content" style="padding: 15px;">
+                            <div>
+                                <p>Choose a theme and add your logo, colors, and images to reflect your brand. <a href="">Learn more</a></p>
+                            </div>
+                            <div class="">
+                                <button>Customize theme</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div>
-                    <span>
-                    </span class='section1'>
-                    <p>Add a custom domain</p>
-                </div>
-                
-                <div>
-                    <span>
-                    </span>
-                    <p>Name your store</p>
-                </div>
 
-                <div>
-                    <span>
-                    </span>
-                    <p>Set up a payment provider</p>
+                    <div class="dropdown-section" style="margin-bottom: 10px;">
+                        <div>
+                            <span style="display: inline;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
+                                  </svg> 
+                            </span>
+                            <p style="display: inline;">Add your first product</p>
+                        </div>
+                        <!-- Dropdown content -->
+                        <div class="dropdown-content" style="padding: 15px;">
+                            <div>
+                                <p>Write a description, add photos, set pricing for the products you plan to sell. <a href="">Learn more</a></p>
+                            </div>
+                            <div class="">
+                                <button>Add product</button>
+                                <button>Import product</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown-section" style="margin-bottom: 10px;">
+                        <div>
+                            <span style="display: inline;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
+                                  </svg> 
+                            </span>
+                            <p style="display: inline;">Add a custom domain</p>
+                        </div>
+                        <!-- Dropdown content -->
+                        <div class="dropdown-content" style="padding: 15px;">
+                            <div>
+                                <p>Your current domain is 22219.myshopify.com but you can add a custom domain to help customers find your online store. <a href="">Learn more</a></p>
+                            </div>
+                            <div class="">
+                                <button>Add domain</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown-section" style="margin-bottom: 10px;">
+                        <div>
+                            <span style="display: inline;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
+                                  </svg> 
+                            </span>
+                            <p style="display: inline;">Name your store</p>
+                        </div>
+                        <!-- Dropdown content -->
+                        <div class="dropdown-content" style="padding: 15px;">
+                            <div>
+                                <p>Your temporary store name is currently Davii collections. The store name appears in your admin and your online store. <a href="">Learn more</a></p>
+                            </div>
+                            <div class="">
+                                <button>Name store</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown-section" style="margin-bottom: 10px;">
+                        <div>
+                            <span style="display: inline;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                    <circle cx="16" cy="16" r="12" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 6" />
+                                  </svg> 
+                            </span>
+                            <p style="display: inline;">Set up a payment provider</p>
+                        </div>
+                        <!-- Dropdown content -->
+                        <div class="dropdown-content" style="padding: 15px;">
+                            <div>
+                                <p>Choose a payment provider to start accepting payments. You'll need a create an account with the payment provider and set it up with your Shopify store. <a href="">Learn more</a></p>
+                            </div>
+                            <div class="">
+                                <button>Set up payment</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Other sections... -->
                 </div>
             </div>
         </div>
-    </div>
-  </main>
+    </main>
 
 </body>
 </html>
